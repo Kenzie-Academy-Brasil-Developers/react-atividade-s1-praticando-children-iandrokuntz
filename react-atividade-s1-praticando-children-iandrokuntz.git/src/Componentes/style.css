@@ -1,0 +1,17 @@
+.boxCards{
+    display: flex;
+    flex-direction: row;
+}
+.Cards{
+    border: 1px solid white;
+    margin: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.Cards:hover{
+    filter: blur(1.4px);
+}
+
